@@ -1,5 +1,5 @@
 
-import conductores.*
+import conductoresypanelistas.*
 
 describe "polino" {
 
@@ -10,3 +10,18 @@ describe "polino" {
 	hacerOpinarDeChimentosA(horacioPagani)
 		assert.equals(0,horacioPagani.nivelDeEnojo())
 		}
+
+	test "hace opinar de chimentos a lizzy tagliano" { 
+		hacerOpinarDeChimentosA(lizzyTagliani)
+		assert.that(aumentarHumor.lizzyTagliani(0)==20)
+		}
+		
+		}
+describe "fantino" {
+	test "hace opinar de deportes a totiPasman"{
+	hacerOpinarDeDeportesA(totiPasman)
+	assert.equals(0, totiPasman.aumentarSoberbia(0))
+	
+	
+		
+
