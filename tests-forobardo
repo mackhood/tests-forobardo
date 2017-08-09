@@ -1,9 +1,12 @@
 
-import conductores.polino
+import conductores.*
 
-describe "ejemplo" {
+describe "polino" {
 
 	test "Polino es polino" {
 		assert.equals(polino, polino)
 	}
-}
+	test " hace opinar de chimentos a Pagani" { 
+	hacerOpinarDeChimentosA(horacioPagani)
+		assert.equals(0,horacioPagani.nivelDeEnojo())
+		}
