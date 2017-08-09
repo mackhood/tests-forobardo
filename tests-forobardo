@@ -21,6 +21,7 @@ describe "fantino" {
 	test "hace opinar de deportes a totiPasman"{
 	hacerOpinarDeDeportesA(totiPasman)
 	assert.equals(0, totiPasman.aumentarSoberbia(0))
+	assert.notthat(totiPasman.tienesed)}
 	
 	
 		
